@@ -8,8 +8,16 @@ var result = liters(gallons);
 
 var cups = function(ounces) {
   return ounces / 8;
-}
+};
 
-var cups = parseFloat(prompt("How much in cups?"));
+var ounces = parseFloat(prompt("How much in ounces?"));
 var result = cups(ounces);
   alert("cups" + "=" + result + ".");
+
+  var ounces = function(tablespoons) {
+    return tablespoons / 2;
+  };
+
+  var tablespoons = parseFloat(prompt("How much in tablspoons?"));
+  var result = cups(tablespoons);
+    alert("ounces" + "=" + result + ".");
