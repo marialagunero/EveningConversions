@@ -19,5 +19,5 @@ var result = cups(ounces);
   };
 
   var tablespoons = parseFloat(prompt("How much in tablspoons?"));
-  var result = cups(tablespoons);
+  var result = ounces(tablespoons);
     alert("ounces" + "=" + result + ".");
