@@ -18,6 +18,6 @@ var result = cups(ounces);
     return tablespoons / 2;
   };
 
-  var tablespoons = parseFloat(prompt("How much in tablspoons?"));
+  var tablespoons = parseFloat(prompt("How much in tablespoons?"));
   var result = ounces(tablespoons);
     alert("ounces" + "=" + result + ".");
